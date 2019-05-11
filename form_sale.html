@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+ <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+	
+</head>
+<body >
+
+<form action="insert_sale.php" method="POST" >
+  <fieldset>
+    <legend>SALE</legend>
+    CUSTOMER ID:<br>
+    <input type="number" name="CUSTOM_ID" class="input-field" required >
+    <br><br>
+    PRODUCT ID<br>
+    <input type="number" name="PR_ID" class="input-field" required>
+    <br><br>
+    EMPLOYEE ID:<br>
+    <input type="number" name="EMP_ID" class="input-field" required>
+    <br><br>
+    QUANTITY:<br>
+    <input type="number" name="QTY" required class="input-field">
+    <br><br>
+    RATE:<br>
+    <input type="number" name="RATE" required class="input-field">
+    <br><br>
+    AMOUNT:<br>
+    <input type="number" name="AMOUNT" required class="input-field">
+    <br><br>
+    BILL DATE:<br>
+    <input type="date" name="BILL_DATE" required class="input-field">
+    <br><br>
+    VISIT ID:<br>
+    <input type="number" name="VISIT_ID" required class="input-field">
+    <br><br>
+    <input id ="clik" type="submit" value="Submit" class="btn waves-effect waves-light" >
+  </fieldset>
+</form>
+</body>
+</html>
